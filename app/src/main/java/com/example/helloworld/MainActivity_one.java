@@ -6,9 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.TextView;
+
 public class MainActivity_one extends AppCompatActivity implements  View.OnClickListener{
     private EditText main_et_result;
     boolean clear_flag;//清空
@@ -16,7 +14,7 @@ public class MainActivity_one extends AppCompatActivity implements  View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main1);
         main_et_result = findViewById(R.id.tv_result);
     }
 
